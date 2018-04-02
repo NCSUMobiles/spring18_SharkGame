@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>30</string>
+            <string>10</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -55,7 +55,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(window_get_width())</string>
+            <string>random(window_get_width()-sprite_get_width(Shark))</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -79,7 +79,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>30</string>
+            <string>90</string>
           </argument>
           <argument>
             <kind>4</kind>
