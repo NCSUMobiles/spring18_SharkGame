@@ -21,5 +21,29 @@
   <height>96</height>
   <frames>
     <frame index="0">images\Shark_0.png</frame>
+    <frame index="1">images\Shark_1.png</frame>
+    <frame index="2">images\Shark_2.png</frame>
+    <frame index="3">images\Shark_3.png</frame>
+    <frame index="4">images\Shark_4.png</frame>
+    <frame index="5">images\Shark_5.png</frame>
+    <frame index="6">images\Shark_6.png</frame>
+    <frame index="7">images\Shark_7.png</frame>
+    <frame index="8">images\Shark_8.png</frame>
+    <frame index="9">images\Shark_9.png</frame>
+    <frame index="10">images\Shark_10.png</frame>
+    <frame index="11">images\Shark_11.png</frame>
+    <frame index="12">images\Shark_12.png</frame>
+    <frame index="13">images\Shark_13.png</frame>
+    <frame index="14">images\Shark_14.png</frame>
+    <frame index="15">images\Shark_15.png</frame>
+    <frame index="16">images\Shark_16.png</frame>
+    <frame index="17">images\Shark_17.png</frame>
+    <frame index="18">images\Shark_18.png</frame>
+    <frame index="19">images\Shark_19.png</frame>
+    <frame index="20">images\Shark_20.png</frame>
+    <frame index="21">images\Shark_21.png</frame>
+    <frame index="22">images\Shark_22.png</frame>
+    <frame index="23">images\Shark_23.png</frame>
+    <frame index="24">images\Shark_24.png</frame>
   </frames>
 </sprite>
