@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>if (mouse_x &lt; 200) {
     x -= 3
-} else if (mouse_x &gt; (window_get_width() - 200)) {
+} else if (mouse_x &gt; (window_get_width() - 75)) {
     x += 3
 } else if (not(mouse_check_button(0))) {
     instance_create(x, y, fish_bullet)
