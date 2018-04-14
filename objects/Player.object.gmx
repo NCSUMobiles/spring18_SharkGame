@@ -28,6 +28,10 @@
             <string>moveSpeed = 3
 shotTime = 500000
 
+if (inventory.flippers) {
+    moveSpeed = 5
+}
+
 shotTimer = 0
 </string>
           </argument>
@@ -62,7 +66,28 @@ if (keyboard_check(ord('A'))) {
 }
 if (keyboard_check_pressed(vk_space)) {
     if (shotTimer &gt;= shotTime) {
-        instance_create(x, y, fish_bullet)
+        fish = instance_create(x, y, fish_bullet)
+        if (inventory.fish_food) {
+            fish.image_xscale = 2
+            fish.image_yscale = 2
+        }
+        if (inventory.bucket) {
+            fish2 = instance_create(x, y, fish_bullet)
+            fish2.image_angle += 15
+            fish2.hspeed = -fish2.speed/4
+            if (inventory.fish_food) {
+                fish2.image_xscale = 2
+                fish2.image_yscale = 2
+            }
+            
+            fish3 = instance_create(x, y, fish_bullet)
+            fish3.image_angle -= 15
+            fish3.hspeed = fish3.speed/4
+            if (inventory.fish_food) {
+                fish3.image_xscale = 2
+                fish3.image_yscale = 2
+            }
+        }
         shotTimer = 0
     }
 }
