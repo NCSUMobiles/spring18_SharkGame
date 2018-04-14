@@ -44,7 +44,7 @@ maxTilt = .5
 tilt = device_get_tilt_x()
 if (abs(tilt) &gt; deadzone) {
     tilt = clamp(tilt, -maxTilt, maxTilt)
-    x += (tilt/maxTilt)*moveSpeed
+    x -= (tilt/maxTilt)*moveSpeed
 }
 if (device_mouse_check_button_pressed(0, mb_left)) {
     instance_create(x, y, fish_bullet)
