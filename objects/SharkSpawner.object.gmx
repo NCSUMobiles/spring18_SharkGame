@@ -55,7 +55,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(window_get_width()-sprite_get_width(Great_White))</string>
+            <string>random(window_get_width()-sprite_get_width(Shark))</string>
           </argument>
           <argument>
             <kind>0</kind>

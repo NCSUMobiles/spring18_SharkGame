@@ -42,6 +42,7 @@
       <object>objects\GreatWhiteInfo</object>
     </objects>
     <objects name="Upgrades">
+      <object>objects\FishFoodUpgrade</object>
       <object>objects\FlipperUpgrade</object>
     </objects>
     <objects name="Teeth">
