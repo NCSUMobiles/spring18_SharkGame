@@ -21,6 +21,7 @@
     <object>objects\SharkSpawner</object>
     <object>objects\inventory</object>
     <object>objects\FlipperUpgrade</object>
+    <object>objects\GameManager</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
