@@ -23,6 +23,9 @@
     <object>objects\SharkSpawner</object>
     <object>objects\inventory</object>
     <object>objects\GameManager</object>
+    <objects name="Info">
+      <object>objects\GreatWhiteInfo</object>
+    </objects>
     <objects name="Upgrades">
       <object>objects\FlipperUpgrade</object>
     </objects>
