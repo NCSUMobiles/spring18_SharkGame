@@ -12,6 +12,9 @@
     <sprite>sprites\Shark</sprite>
     <sprite>sprites\Fish</sprite>
     <sprite>sprites\Teeth</sprite>
+    <sprite>sprites\Flippers_Upgrade</sprite>
+    <sprite>sprites\Fish_Food_Upgrade</sprite>
+    <sprite>sprites\Bucket_Upgrade</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
