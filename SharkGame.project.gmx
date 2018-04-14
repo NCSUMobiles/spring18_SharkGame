@@ -20,9 +20,11 @@
     <object>objects\Tooth</object>
     <object>objects\SharkSpawner</object>
     <object>objects\inventory</object>
+    <object>objects\FlipperUpgrade</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
+    <room>rooms\shop</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
