@@ -22,8 +22,15 @@
     <object>objects\Tooth</object>
     <object>objects\SharkSpawner</object>
     <object>objects\inventory</object>
-    <object>objects\FlipperUpgrade</object>
     <object>objects\GameManager</object>
+    <objects name="Upgrades">
+      <object>objects\FlipperUpgrade</object>
+    </objects>
+    <objects name="Teeth">
+      <object>objects\GalagadonTooth</object>
+      <object>objects\GreatWhiteTooth</object>
+      <object>objects\Hammerhead_Tooth</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
