@@ -32,7 +32,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\Player</object>
-    <object>objects\fish_bullet</object>
+    <object>objects\FishBullet</object>
     <object>objects\EnemyShark</object>
     <object>objects\Tooth</object>
     <object>objects\SharkSpawner</object>

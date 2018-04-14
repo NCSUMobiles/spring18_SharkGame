@@ -66,13 +66,13 @@ if (keyboard_check(ord('A'))) {
 }
 if (keyboard_check_pressed(vk_space)) {
     if (shotTimer &gt;= shotTime) {
-        fish = instance_create(x, y, fish_bullet)
+        fish = instance_create(x, y, FishBullet)
         if (inventory.fish_food) {
             fish.image_xscale = 2
             fish.image_yscale = 2
         }
         if (inventory.bucket) {
-            fish2 = instance_create(x, y, fish_bullet)
+            fish2 = instance_create(x, y, FishBullet)
             fish2.image_angle += 15
             fish2.hspeed = -fish2.speed/4
             if (inventory.fish_food) {
@@ -80,7 +80,7 @@ if (keyboard_check_pressed(vk_space)) {
                 fish2.image_yscale = 2
             }
             
-            fish3 = instance_create(x, y, fish_bullet)
+            fish3 = instance_create(x, y, FishBullet)
             fish3.image_angle -= 15
             fish3.hspeed = fish3.speed/4
             if (inventory.fish_food) {
@@ -102,13 +102,13 @@ if (abs(tilt) &gt; deadzone) {
 }
 if (device_mouse_check_button_pressed(0, mb_left)) {
     if (shotTimer &gt;= shotTime) {
-        fish = instance_create(x, y, fish_bullet)
+        fish = instance_create(x, y, FishBullet)
         if (inventory.fish_food) {
             fish.image_xscale = 2
             fish.image_yscale = 2
         }
         if (inventory.bucket) {
-            fish2 = instance_create(x, y, fish_bullet)
+            fish2 = instance_create(x, y, FishBullet)
             fish2.image_angle += 15
             fish2.hspeed = -fish2.speed/4
             if (inventory.fish_food) {
@@ -116,7 +116,7 @@ if (device_mouse_check_button_pressed(0, mb_left)) {
                 fish2.image_yscale = 2
             }
             
-            fish3 = instance_create(x, y, fish_bullet)
+            fish3 = instance_create(x, y, FishBullet)
             fish3.image_angle -= 15
             fish3.hspeed = fish3.speed/4
             if (inventory.fish_food) {
@@ -140,7 +140,7 @@ if (x &gt; room_width - sprite_width/2) {
 } else if (mouse_x &gt; (window_get_width() - 75)) {
     x += 3
 } else if (not(mouse_check_button(0))) {
-    instance_create(x, y, fish_bullet)
+    instance_create(x, y, FishBullet)
 }*/
 </string>
           </argument>

@@ -34,7 +34,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="fish_bullet">
+    <event eventtype="4" ename="FishBullet">
       <action>
         <libid>1</libid>
         <id>201</id>
