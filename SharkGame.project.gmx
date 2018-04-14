@@ -9,14 +9,26 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\Diver</sprite>
-    <sprite>sprites\Shark</sprite>
+    <sprite>sprites\Great_White</sprite>
     <sprite>sprites\Fish</sprite>
-    <sprite>sprites\Teeth</sprite>
+    <sprite>sprites\Teeth_Great_White</sprite>
     <sprite>sprites\Flippers_Upgrade</sprite>
     <sprite>sprites\Fish_Food_Upgrade</sprite>
     <sprite>sprites\Bucket_Upgrade</sprite>
+    <sprite>sprites\Black_Tip_Reef</sprite>
+    <sprite>sprites\HammerHead</sprite>
+    <sprite>sprites\Hemipristis</sprite>
+    <sprite>sprites\Mako</sprite>
+    <sprite>sprites\Teeth_Black_Tip</sprite>
+    <sprite>sprites\Teeth_HammerHead</sprite>
+    <sprite>sprites\Teeth_Hemipristis</sprite>
+    <sprite>sprites\Teeth_Mako</sprite>
+    <sprite>sprites\Teeth_Thresher</sprite>
+    <sprite>sprites\Thresher</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\Player</object>
