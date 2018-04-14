@@ -19,6 +19,7 @@
     <object>objects\EnemyShark</object>
     <object>objects\Tooth</object>
     <object>objects\SharkSpawner</object>
+    <object>objects\inventory</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
