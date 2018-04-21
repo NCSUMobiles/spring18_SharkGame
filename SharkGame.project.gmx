@@ -26,11 +26,17 @@
     <sprite>sprites\Teeth_Thresher</sprite>
     <sprite>sprites\Thresher</sprite>
     <sprite>sprites\Info</sprite>
+    <sprite>sprites\Button_Left</sprite>
+    <sprite>sprites\Button_Right</sprite>
+    <sprite>sprites\Start_Game_Button</sprite>
+    <sprite>sprites\Enter_Shop_Button</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\MainGameBackground</background>
+    <background>background\MainGameBackground1</background>
     <background>background\TitleScreenBackground</background>
     <background>background\ShopBackground</background>
+    <background>background\MainGameBackground2</background>
+    <background>background\MainGameBackground3</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
