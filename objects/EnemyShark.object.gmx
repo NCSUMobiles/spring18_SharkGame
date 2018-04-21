@@ -58,11 +58,14 @@ speed = 3
         if (x &gt; room_width/2) {
             if (direction &gt; 180) {
                 direction += turnSpeed
+                if (direction &gt;= 360-turnSpeed) {
+                    direction = 0
+                }
             } else {
                 direction -= turnSpeed
-            }
-            if (direction &lt; 0 or direction &gt; 360) {
-                direction = 0
+                if (direction &lt;= turnSpeed) {
+                    direction = 0
+                }
             }
         } else {
             if (direction &gt; 180) {
@@ -78,12 +81,12 @@ speed = 3
             }
         }
     }
-    image_angle = direction + 90
     speed = 6
     if (x &gt; room_width + sprite_width or x &lt; -sprite_width) {
         instance_destroy()
     }
 }
+    image_angle = direction + 90
 </string>
           </argument>
         </arguments>

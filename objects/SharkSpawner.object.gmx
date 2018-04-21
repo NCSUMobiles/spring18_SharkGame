@@ -53,7 +53,7 @@
             <kind>1</kind>
             <string>shark = MakoShark
 
-r = random(5)
+r = random(6)
 if (r &lt; 1) {
     shark = MakoShark
 } else if (r &lt; 2) {
@@ -62,10 +62,12 @@ if (r &lt; 1) {
     shark = HammerheadShark
 } else if (r &lt; 4) {
     shark = GreatWhiteShark
+} else if (r &lt; 5) {
+    shark = BlackTipReefShark
 } else {
     shark = HemipristisShark
 }
-
+shark = HammerheadShark
 spriteWidth = sprite_get_width(object_get_sprite(shark))
 instance_create(random_range(spriteWidth/2, room_width - spriteWidth/2), 0, shark)
 </string>
