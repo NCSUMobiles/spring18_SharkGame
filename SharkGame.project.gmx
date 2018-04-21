@@ -25,9 +25,12 @@
     <sprite>sprites\Teeth_Mako</sprite>
     <sprite>sprites\Teeth_Thresher</sprite>
     <sprite>sprites\Thresher</sprite>
+    <sprite>sprites\Info</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\MainGameBackground</background>
+    <background>background\TitleScreenBackground</background>
+    <background>background\ShopBackground</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -41,6 +44,7 @@
     <object>objects\GameManager</object>
     <objects name="Sharks">
       <object>objects\MakoShark</object>
+      <object>objects\BlackTipReefShark</object>
       <object>objects\GalagadonShark</object>
       <object>objects\ThresherShark</object>
       <object>objects\HammerheadShark</object>
@@ -49,6 +53,7 @@
     </objects>
     <objects name="Teeth">
       <object>objects\GalagadonTooth</object>
+      <object>objects\BlackTipReefTooth</object>
       <object>objects\GreatWhiteTooth</object>
       <object>objects\HammerheadTooth</object>
       <object>objects\MakoTooth</object>
@@ -64,6 +69,7 @@
       <objects name="Info">
         <object>objects\GreatWhiteInfo</object>
         <object>objects\HammerheadInfo</object>
+        <object>objects\BlackTipReefInfo</object>
         <object>objects\ThresherInfo</object>
         <object>objects\HemipristisInfo</object>
         <object>objects\GalagadonInfo</object>
@@ -72,7 +78,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\TitleScreen</room>
+    <room>rooms\Game</room>
     <room>rooms\GreatWhiteMuseum</room>
     <room>rooms\GalagadonMuseum</room>
     <room>rooms\HammerheadMuseum</room>
