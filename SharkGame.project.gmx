@@ -6,7 +6,13 @@
   <NewExtensions>
     <extension index="0">extensions\androidHome</extension>
   </NewExtensions>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\shoot_sound</sound>
+    <sound>sound\bubble_sound</sound>
+    <sound>sound\shark_eating_fish</sound>
+    <sound>sound\shark_eating_diver</sound>
+    <sound>sound\main_menu_music</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\Diver</sprite>
     <sprite>sprites\Great_White</sprite>
