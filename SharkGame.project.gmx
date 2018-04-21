@@ -38,6 +38,13 @@
     <object>objects\SharkSpawner</object>
     <object>objects\inventory</object>
     <object>objects\GameManager</object>
+    <objects name="Sharks">
+      <object>objects\MakoShark</object>
+      <object>objects\ThresherShark</object>
+      <object>objects\HammerheadShark</object>
+      <object>objects\GreatWhiteShark</object>
+      <object>objects\HemipristisShark</object>
+    </objects>
     <objects name="Info">
       <object>objects\GreatWhiteInfo</object>
     </objects>
