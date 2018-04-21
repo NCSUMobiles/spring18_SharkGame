@@ -31,7 +31,11 @@
    }
    
 if (keyboard_check_pressed(vk_backspace)) {
-    room_goto(TitleScreen)
+    if (os_type == os_android) {
+        android_minimize()
+    } else {
+        game_end()
+    }
 }
 </string>
           </argument>

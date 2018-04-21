@@ -221,7 +221,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>true</string>
+            <string>false</string>
           </argument>
         </arguments>
       </action>
@@ -245,7 +245,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>true</string>
+            <string>false</string>
           </argument>
         </arguments>
       </action>
@@ -269,7 +269,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>true</string>
+            <string>false</string>
           </argument>
         </arguments>
       </action>
@@ -1223,7 +1223,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>room0</string>
+            <string>Game</string>
           </argument>
           <argument>
             <kind>4</kind>

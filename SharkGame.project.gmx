@@ -46,7 +46,6 @@
     <object>objects\Tooth</object>
     <object>objects\SharkSpawner</object>
     <object>objects\Inventory</object>
-    <object>objects\MuseumManager</object>
     <object>objects\GameManager</object>
     <objects name="Sharks">
       <object>objects\MakoShark</object>
@@ -82,6 +81,9 @@
         <object>objects\MakoInfo</object>
       </objects>
     </objects>
+    <object>objects\PlayButton</object>
+    <object>objects\ShopButton</object>
+    <object>objects\TitleScreenManager</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\TitleScreen</room>
