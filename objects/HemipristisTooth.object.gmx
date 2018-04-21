@@ -33,13 +33,13 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>inventory</whoName>
+        <whoName>Inventory</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hammerhead_teeth</string>
+            <string>hemipristis_teeth</string>
           </argument>
           <argument>
             <kind>0</kind>

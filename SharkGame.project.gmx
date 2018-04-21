@@ -36,31 +36,49 @@
     <object>objects\EnemyShark</object>
     <object>objects\Tooth</object>
     <object>objects\SharkSpawner</object>
-    <object>objects\inventory</object>
+    <object>objects\Inventory</object>
+    <object>objects\MuseumManager</object>
     <object>objects\GameManager</object>
     <objects name="Sharks">
       <object>objects\MakoShark</object>
+      <object>objects\GalagadonShark</object>
       <object>objects\ThresherShark</object>
       <object>objects\HammerheadShark</object>
       <object>objects\GreatWhiteShark</object>
       <object>objects\HemipristisShark</object>
     </objects>
-    <objects name="Info">
-      <object>objects\GreatWhiteInfo</object>
-    </objects>
-    <objects name="Upgrades">
-      <object>objects\FishFoodUpgrade</object>
-      <object>objects\FlipperUpgrade</object>
-    </objects>
     <objects name="Teeth">
       <object>objects\GalagadonTooth</object>
       <object>objects\GreatWhiteTooth</object>
-      <object>objects\Hammerhead_Tooth</object>
+      <object>objects\HammerheadTooth</object>
+      <object>objects\MakoTooth</object>
+      <object>objects\HemipristisTooth</object>
+      <object>objects\ThresherTooth</object>
+    </objects>
+    <objects name="ShopObjects">
+      <objects name="Upgrades">
+        <object>objects\FishFoodUpgrade</object>
+        <object>objects\BucketUpgrade</object>
+        <object>objects\FlipperUpgrade</object>
+      </objects>
+      <objects name="Info">
+        <object>objects\GreatWhiteInfo</object>
+        <object>objects\HammerheadInfo</object>
+        <object>objects\ThresherInfo</object>
+        <object>objects\HemipristisInfo</object>
+        <object>objects\GalagadonInfo</object>
+        <object>objects\MakoInfo</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
-    <room>rooms\shop</room>
+    <room>rooms\GreatWhiteMuseum</room>
+    <room>rooms\GalagadonMuseum</room>
+    <room>rooms\HammerheadMuseum</room>
+    <room>rooms\HemipristisMuseum</room>
+    <room>rooms\MakoMuseum</room>
+    <room>rooms\ThresherMuseum</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
