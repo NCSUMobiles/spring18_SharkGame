@@ -55,7 +55,7 @@
     <instance objName="&lt;undefined&gt;" x="-32" y="288" name="inst_E76D5491" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="HammerheadInfo" x="160" y="208" name="inst_739739F3" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="BucketUpgrade" x="240" y="208" name="inst_49EE5ED0" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="PreviousRoomButton" x="-48" y="320" name="inst_0F9D71AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="PreviousRoomButton" x="-32" y="320" name="inst_0F9D71AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="NextRoomButton" x="288" y="320" name="inst_F2D41FC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

@@ -107,11 +107,12 @@
     <room>rooms\TitleScreen</room>
     <room>rooms\Game</room>
     <room>rooms\GreatWhiteMuseum</room>
-    <room>rooms\GalagadonMuseum</room>
     <room>rooms\HammerheadMuseum</room>
-    <room>rooms\HemipristisMuseum</room>
-    <room>rooms\MakoMuseum</room>
     <room>rooms\ThresherMuseum</room>
+    <room>rooms\MakoMuseum</room>
+    <room>rooms\HemipristisMuseum</room>
+    <room>rooms\BlackTipReefMuseum</room>
+    <room>rooms\GalagadonMuseum</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
