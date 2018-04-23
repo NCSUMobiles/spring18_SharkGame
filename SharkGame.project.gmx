@@ -37,6 +37,7 @@
     <sprite>sprites\Start_Game_Button</sprite>
     <sprite>sprites\Enter_Shop_Button</sprite>
     <sprite>sprites\Teeth_Detailed_Great_White</sprite>
+    <sprite>sprites\InventorySprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\MainGameBackground1</background>
@@ -48,6 +49,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\Player</object>
+    <object>objects\InfoBase</object>
     <object>objects\FishBullet</object>
     <object>objects\EnemyShark</object>
     <object>objects\Tooth</object>
@@ -102,6 +104,7 @@
     <object>objects\TitleScreenManager</object>
     <object>objects\PreviousRoomButton</object>
     <object>objects\NextRoomButton</object>
+    <object>objects\PersistentText</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\TitleScreen</room>
