@@ -67,7 +67,6 @@ if (r &lt; 1) {
 } else {
     shark = HemipristisShark
 }
-shark = HammerheadShark
 spriteWidth = sprite_get_width(object_get_sprite(shark))
 instance_create(random_range(spriteWidth/2, room_width - spriteWidth/2), 0, shark)
 </string>

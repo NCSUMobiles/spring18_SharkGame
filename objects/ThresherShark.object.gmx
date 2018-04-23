@@ -7,7 +7,92 @@
   <persistent>0</persistent>
   <parentName>EnemyShark</parentName>
   <maskName>&lt;undefined&gt;</maskName>
-  <events/>
+  <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>event_inherited()
+
+right = true
+diveX = x
+time = 0
+turnTime = .5
+if (x &lt; room_width/2) {
+    x = -sprite_width/2
+    right = true
+    direction = 0
+} else {
+    x = room_width + sprite_width/2
+    right = false
+    direction = 180
+}
+
+y = random(room_height*.1)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (!fed) {
+    if (right) {
+        if (x &gt; diveX) {
+            time += delta_time/1000000
+            if (direction &gt; 270 or direction &lt; 10) {
+                direction = 360-90*time/turnTime
+            } else {
+                direction = 270
+            }
+        }
+    } else {
+        if (x &lt; diveX) {
+            time += delta_time/1000000
+            if (direction &lt; 270) {
+                direction = 180+90*time/turnTime
+            } else {
+                direction = 270
+            }
+        }
+    }
+}
+
+event_inherited()
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </events>
   <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>
