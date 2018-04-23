@@ -87,10 +87,21 @@
         <object>objects\GalagadonInfo</object>
         <object>objects\MakoInfo</object>
       </objects>
+      <objects name="ShopTeeth">
+        <object>objects\GreatWhiteShopTooth</object>
+        <object>objects\HemipristisShopTooth</object>
+        <object>objects\BlackTipReefShopTooth</object>
+        <object>objects\ThresherShopTooth</object>
+        <object>objects\GalagadonShopTooth</object>
+        <object>objects\HammerheadShopTooth</object>
+        <object>objects\MakoShopTooth</object>
+      </objects>
     </objects>
     <object>objects\PlayButton</object>
     <object>objects\ShopButton</object>
     <object>objects\TitleScreenManager</object>
+    <object>objects\PreviousRoomButton</object>
+    <object>objects\NextRoomButton</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\TitleScreen</room>
