@@ -37,6 +37,7 @@
     <sprite>sprites\Start_Game_Button</sprite>
     <sprite>sprites\Enter_Shop_Button</sprite>
     <sprite>sprites\Teeth_Detailed_Great_White</sprite>
+    <sprite>sprites\Teeth_Detailed_HammerHead</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\MainGameBackground1</background>
