@@ -48,6 +48,9 @@
     <background>background\MainGameBackground3</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font_toothcount</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Player</object>
     <object>objects\InfoBase</object>
