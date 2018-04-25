@@ -3,12 +3,12 @@
   <type>0</type>
   <xorig>48</xorig>
   <yorigin>48</yorigin>
-  <colkind>0</colkind>
+  <colkind>1</colkind>
   <coltolerance>0</coltolerance>
-  <sepmasks>-1</sepmasks>
+  <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>15</bbox_left>
-  <bbox_right>80</bbox_right>
+  <bbox_left>0</bbox_left>
+  <bbox_right>73</bbox_right>
   <bbox_top>0</bbox_top>
   <bbox_bottom>95</bbox_bottom>
   <HTile>0</HTile>
@@ -17,7 +17,7 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>96</width>
+  <width>74</width>
   <height>96</height>
   <frames>
     <frame index="0">images\Great_White_0.png</frame>
@@ -28,22 +28,5 @@
     <frame index="5">images\Great_White_5.png</frame>
     <frame index="6">images\Great_White_6.png</frame>
     <frame index="7">images\Great_White_7.png</frame>
-    <frame index="8">images\Great_White_8.png</frame>
-    <frame index="9">images\Great_White_9.png</frame>
-    <frame index="10">images\Great_White_10.png</frame>
-    <frame index="11">images\Great_White_11.png</frame>
-    <frame index="12">images\Great_White_12.png</frame>
-    <frame index="13">images\Great_White_13.png</frame>
-    <frame index="14">images\Great_White_14.png</frame>
-    <frame index="15">images\Great_White_15.png</frame>
-    <frame index="16">images\Great_White_16.png</frame>
-    <frame index="17">images\Great_White_17.png</frame>
-    <frame index="18">images\Great_White_18.png</frame>
-    <frame index="19">images\Great_White_19.png</frame>
-    <frame index="20">images\Great_White_20.png</frame>
-    <frame index="21">images\Great_White_21.png</frame>
-    <frame index="22">images\Great_White_22.png</frame>
-    <frame index="23">images\Great_White_23.png</frame>
-    <frame index="24">images\Great_White_24.png</frame>
   </frames>
 </sprite>

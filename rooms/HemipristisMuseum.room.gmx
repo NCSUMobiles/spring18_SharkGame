@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="HemipristisInfo" x="160" y="208" name="inst_EE2D5CF0" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="FlipperUpgrade" x="245" y="208" name="inst_5A8B2721" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="PreviousRoomButton" x="-32" y="320" name="inst_B6F5747C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="NextRoomButton" x="288" y="320" name="inst_B51F10F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GameManager" x="0" y="0" name="inst_61A8D1DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

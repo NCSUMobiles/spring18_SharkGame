@@ -3,23 +3,30 @@
   <type>0</type>
   <xorig>48</xorig>
   <yorigin>48</yorigin>
-  <colkind>0</colkind>
+  <colkind>1</colkind>
   <coltolerance>0</coltolerance>
-  <sepmasks>-1</sepmasks>
+  <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>27</bbox_left>
-  <bbox_right>68</bbox_right>
-  <bbox_top>9</bbox_top>
-  <bbox_bottom>83</bbox_bottom>
+  <bbox_left>0</bbox_left>
+  <bbox_right>41</bbox_right>
+  <bbox_top>0</bbox_top>
+  <bbox_bottom>80</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>96</width>
-  <height>96</height>
+  <width>42</width>
+  <height>81</height>
   <frames>
     <frame index="0">images\Black_Tip_Reef_0.png</frame>
+    <frame index="1">images\Black_Tip_Reef_1.png</frame>
+    <frame index="2">images\Black_Tip_Reef_2.png</frame>
+    <frame index="3">images\Black_Tip_Reef_3.png</frame>
+    <frame index="4">images\Black_Tip_Reef_4.png</frame>
+    <frame index="5">images\Black_Tip_Reef_5.png</frame>
+    <frame index="6">images\Black_Tip_Reef_6.png</frame>
+    <frame index="7">images\Black_Tip_Reef_7.png</frame>
   </frames>
 </sprite>
