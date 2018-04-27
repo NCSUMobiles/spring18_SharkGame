@@ -39,6 +39,9 @@
     <sprite>sprites\Teeth_Detailed_Great_White</sprite>
     <sprite>sprites\Teeth_Detailed_HammerHead</sprite>
     <sprite>sprites\Teeth_Detailed_Mako</sprite>
+    <sprite>sprites\Teeth_Detailed_Thresher</sprite>
+    <sprite>sprites\Teeth_Detailed_Hemipristis</sprite>
+    <sprite>sprites\Teeth_Detailed_Black_Tip</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\MainGameBackground1</background>
@@ -48,9 +51,7 @@
     <background>background\MainGameBackground3</background>
   </backgrounds>
   <paths name="paths"/>
-  <fonts name="fonts">
-    <font>fonts\font_toothcount</font>
-  </fonts>
+  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\Player</object>
     <object>objects\InfoBase</object>
