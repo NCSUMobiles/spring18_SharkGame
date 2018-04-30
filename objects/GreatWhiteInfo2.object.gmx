@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>acquired = Inventory.black_tip_reef_info1;
+            <string>acquired = Inventory.great_white_info2;
 </string>
           </argument>
         </arguments>
@@ -106,17 +106,17 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>Inventory</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>message</string>
+            <string>teeth_count</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Black tip reef sharks are sharks.'</string>
+            <string>great_white_teeth</string>
           </argument>
         </arguments>
       </action>
@@ -130,17 +130,17 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>Inventory</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>teeth_count</string>
+            <string>message</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>black_tip_reef_teeth</string>
+            <string>'Great whites like to eat seals.'</string>
           </argument>
         </arguments>
       </action>

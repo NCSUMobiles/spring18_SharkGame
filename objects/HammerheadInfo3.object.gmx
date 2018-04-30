@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>acquired = Inventory.black_tip_reef_info1;
+            <string>acquired = Inventory.hammerhead_info3;
 </string>
           </argument>
         </arguments>
@@ -116,7 +116,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Black tip reef sharks are sharks.'</string>
+            <string>'Hammerheads live in the ocean.'</string>
           </argument>
         </arguments>
       </action>
@@ -140,7 +140,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>black_tip_reef_teeth</string>
+            <string>hammerhead_teeth</string>
           </argument>
         </arguments>
       </action>
