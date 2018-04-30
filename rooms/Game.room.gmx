@@ -53,6 +53,8 @@
   <instances>
     <instance objName="SharkSpawner" x="0" y="0" name="inst_F572001C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GameManager" x="32" y="0" name="inst_70DC0107" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="UpgradeButton" x="32" y="640" name="inst_0A05D27F" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="Back_to_Menu" x="0" y="0" name="inst_24B2C508" locked="0" code="" scaleX="0.666666686534882" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
