@@ -51,7 +51,6 @@
     <background>background\MainGameBackground3</background>
   </backgrounds>
   <paths name="paths"/>
-  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\Player</object>
     <object>objects\InfoBase</object>
