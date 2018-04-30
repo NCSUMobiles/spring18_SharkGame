@@ -128,7 +128,10 @@
     <object>objects\TitleScreenManager</object>
     <object>objects\PreviousRoomButton</object>
     <object>objects\NextRoomButton</object>
-    <object>objects\UpgradeButton</object>
+    <object>objects\UpgradeButtonFF</object>
+    <object>objects\UpgradeButtonB</object>
+    <object>objects\FishFoodButton</object>
+    <object>objects\BucketButton</object>
     <object>objects\Back_to_Menu</object>
     <object>objects\FadeToGameOver</object>
     <object>objects\SaveData</object>
