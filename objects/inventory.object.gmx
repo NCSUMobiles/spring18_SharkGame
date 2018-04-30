@@ -3851,13 +3851,13 @@ if (room != Game &amp;&amp; room != TitleScreen) {
     draw_set_halign(fa_center);
     draw_text(150,616,teeth_count);
     if(next_upgrade == 'info1'){
-    draw_text(250,616,'/25');
+    draw_text(250,616,'/15');
     }else if(next_upgrade == 'info2'){
-    draw_text(250,616,'/50');
+    draw_text(250,616,'/30');
     }else if(next_upgrade == 'upgrade'){
-    draw_text(250,616,'/75');
+    draw_text(250,616,'/45');
     }else if(next_upgrade == 'info3'){
-    draw_text(250,616,'/100');
+    draw_text(250,616,'/60');
     }
     
     draw_set_valign(fa_top);
