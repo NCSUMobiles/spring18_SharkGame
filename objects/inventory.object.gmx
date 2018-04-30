@@ -337,7 +337,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>bucket_active</string>
+            <string>bucket_obtained</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -457,7 +457,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>fish_food_active</string>
+            <string>fish_food_obtained</string>
           </argument>
           <argument>
             <kind>0</kind>
