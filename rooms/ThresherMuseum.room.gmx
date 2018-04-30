@@ -56,6 +56,7 @@
     <instance objName="NextRoomButton" x="288" y="320" name="inst_C772242D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GameManager" x="0" y="0" name="inst_EBF78FBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Back_to_Menu" x="0" y="0" name="inst_19C733DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ThresherShopTooth" x="160" y="384" name="inst_4221A93D" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
