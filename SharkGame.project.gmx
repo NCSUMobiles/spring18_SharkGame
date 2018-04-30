@@ -94,12 +94,24 @@
       </objects>
       <objects name="Info">
         <object>objects\GreatWhiteInfo</object>
+        <object>objects\GreatWhiteInfo2</object>
+        <object>objects\GreatWhiteInfo3</object>
         <object>objects\HammerheadInfo</object>
+        <object>objects\HammerheadInfo2</object>
+        <object>objects\HammerheadInfo3</object>
         <object>objects\BlackTipReefInfo</object>
+        <object>objects\BlackTipReefInfo2</object>
+        <object>objects\BlackTipReefInfo3</object>
         <object>objects\ThresherInfo</object>
+        <object>objects\ThresherInfo2</object>
+        <object>objects\ThresherInfo3</object>
         <object>objects\HemipristisInfo</object>
-        <object>objects\GalagadonInfo</object>
+        <object>objects\HemipristisInfo2</object>
+        <object>objects\HemipristisInfo3</object>
         <object>objects\MakoInfo</object>
+        <object>objects\MakoInfo2</object>
+        <object>objects\MakoInfo3</object>
+        <object>objects\GalagadonInfo</object>
       </objects>
       <objects name="ShopTeeth">
         <object>objects\GreatWhiteShopTooth</object>
@@ -116,7 +128,10 @@
     <object>objects\TitleScreenManager</object>
     <object>objects\PreviousRoomButton</object>
     <object>objects\NextRoomButton</object>
-    <object>objects\UpgradeButton</object>
+    <object>objects\UpgradeButtonFF</object>
+    <object>objects\UpgradeButtonB</object>
+    <object>objects\FishFoodButton</object>
+    <object>objects\BucketButton</object>
     <object>objects\Back_to_Menu</object>
     <object>objects\FadeToGameOver</object>
     <object>objects\SaveData</object>
