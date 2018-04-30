@@ -8,6 +8,52 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>minSharkSpeed = 3
+maxSharkSpeed = 6
+
+timer = 0
+fadeTimer = 0
+sharkSpeed = minSharkSpeed
+
+timeToMax = 30 // Seconds
+fadeTime = 3 // Seconds
+
+microSecondsToMax = timeToMax*1000000
+microSecondsFade = fadeTime*1000000
+
+transition1 = microSecondsToMax*.33
+transition2 = microSecondsToMax*.67
+
+
+background_index[2] = MainGameBackground3 // First Background
+background_index[1] = MainGameBackground2 // Second Background
+background_index[0] = MainGameBackground1 // Third Background
+
+
+background_visible[1] = true
+background_visible[2] = true
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -33,6 +79,20 @@
 if (keyboard_check_pressed(vk_backspace)) {
     room_goto(TitleScreen)
 }
+
+timer += delta_time
+timeProportion = (min(timer, microSecondsToMax)/microSecondsToMax)
+if (timer &gt; transition1) {
+    fadePercent = min(timer-transition1, microSecondsFade)/microSecondsFade
+    alphaPercent = 1-fadePercent
+    background_alpha[2] = alphaPercent
+}
+if (timer &gt; transition2) {
+    fadePercent = min(timer-transition2, microSecondsFade)/microSecondsFade
+    alphaPercent = 1-fadePercent
+    background_alpha[1] = alphaPercent
+}
+sharkSpeed = minSharkSpeed + timeProportion * (maxSharkSpeed-minSharkSpeed)
 </string>
           </argument>
         </arguments>

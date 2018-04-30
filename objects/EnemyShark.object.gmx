@@ -31,7 +31,7 @@ turnSpeed = 270/room_speed
 
 direction = 270
 image_speed = .5
-speed = 3
+speed = GameManager.sharkSpeed
 </string>
           </argument>
         </arguments>
@@ -82,7 +82,7 @@ speed = 3
             }
         }
     }
-    speed = 6
+    speed = GameManager.sharkSpeed*2
     if (x &gt; room_width + sprite_width or x &lt; -sprite_width) {
         instance_destroy()
     }
