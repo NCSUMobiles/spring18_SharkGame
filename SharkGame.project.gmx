@@ -51,6 +51,10 @@
     <background>background\MainGameBackground3</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font_toothcount</font>
+    <font>fonts\font_infotext</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Player</object>
     <object>objects\InfoBase</object>

@@ -2315,6 +2315,20 @@
     <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
+        <id>425</id>
+        <kind>4</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>612</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -2711,7 +2725,16 @@ draw_set_font(noone);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (room != Game &amp;&amp; room != TitleScreen) {
+            <string>if (showtext == 1) {
+    draw_set_color(8421504);
+    draw_rectangle(0,0,411,60, false);
+    draw_set_color(c_white);
+    draw_set_font(font_infotext);
+    draw_text(20,20,message);
+    draw_set_font(noone);
+}
+
+if (room != Game &amp;&amp; room != TitleScreen) {
     draw_set_color(c_black);
     draw_set_font(font_toothcount);
     draw_set_valign(fa_center);
