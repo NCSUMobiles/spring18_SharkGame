@@ -2729,7 +2729,9 @@ draw_set_font(noone);
     draw_set_color(8421504);
     draw_rectangle(0,0,411,60, false);
     draw_set_color(c_white);
+    draw_set_font(font_infotext);
     draw_text(20,20,message);
+    draw_set_font(noone);
 }
 
 if (room != Game &amp;&amp; room != TitleScreen) {
