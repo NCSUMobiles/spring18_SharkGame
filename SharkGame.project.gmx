@@ -119,6 +119,7 @@
     <object>objects\UpgradeButton</object>
     <object>objects\Back_to_Menu</object>
     <object>objects\FadeToGameOver</object>
+    <object>objects\SaveData</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\TitleScreen</room>
