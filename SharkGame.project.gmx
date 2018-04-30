@@ -112,6 +112,7 @@
     <object>objects\TitleScreenManager</object>
     <object>objects\PreviousRoomButton</object>
     <object>objects\NextRoomButton</object>
+    <object>objects\FadeToEndScreen</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\TitleScreen</room>
