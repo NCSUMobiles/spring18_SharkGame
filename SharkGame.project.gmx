@@ -135,6 +135,8 @@
     <object>objects\Back_to_Menu</object>
     <object>objects\FadeToGameOver</object>
     <object>objects\SaveData</object>
+    <object>objects\TransitionSide</object>
+    <object>objects\MuseumManager</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\TitleScreen</room>

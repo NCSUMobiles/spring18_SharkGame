@@ -54,11 +54,11 @@
     <instance objName="HemipristisInfo" x="160" y="208" name="inst_EE2D5CF0" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="PreviousRoomButton" x="-32" y="320" name="inst_B6F5747C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="NextRoomButton" x="288" y="320" name="inst_B51F10F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="GameManager" x="0" y="0" name="inst_61A8D1DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Back_to_Menu" x="0" y="0" name="inst_F885A827" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="HemipristisShopTooth" x="160" y="384" name="inst_17BE6A77" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="HemipristisInfo2" x="160" y="304" name="inst_94D700C8" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="HemipristisInfo3" x="240" y="304" name="inst_681DEB5D" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="MuseumManager" x="0" y="64" name="inst_F2E7CA04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

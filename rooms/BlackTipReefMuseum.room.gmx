@@ -53,11 +53,11 @@
   <instances>
     <instance objName="PreviousRoomButton" x="-32" y="320" name="inst_B6F5747C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackTipReefInfo" x="160" y="208" name="inst_E6376384" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="GameManager" x="0" y="0" name="inst_7D7459BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Back_to_Menu" x="0" y="0" name="inst_3A068C52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlackTipReefShopTooth" x="160" y="384" name="inst_38D8E161" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="BlackTipReefInfo2" x="160" y="304" name="inst_87E6BCEA" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="BlackTipReefInfo3" x="240" y="304" name="inst_76DF8497" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="MuseumManager" x="0" y="64" name="inst_C9DEC92E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

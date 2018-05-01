@@ -55,11 +55,11 @@
     <instance objName="BucketUpgrade" x="245" y="208" name="inst_49EE5ED0" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="PreviousRoomButton" x="-32" y="320" name="inst_0F9D71AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="NextRoomButton" x="288" y="320" name="inst_F2D41FC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="GameManager" x="0" y="0" name="inst_2144B70A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="HammerheadShopTooth" x="160" y="384" name="inst_C3C488A0" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="Back_to_Menu" x="0" y="0" name="inst_F965F7F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="HammerheadInfo2" x="160" y="304" name="inst_0EEF6789" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="HammerheadInfo3" x="240" y="304" name="inst_F325D7D7" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="MuseumManager" x="0" y="64" name="inst_22490FD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
