@@ -3,8 +3,8 @@
   <caption></caption>
   <width>411</width>
   <height>731</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -58,6 +58,8 @@
     <instance objName="MakoShopTooth" x="160" y="384" name="inst_ABE6A9F6" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="FlipperUpgrade" x="245" y="208" name="inst_B5133D81" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="Back_to_Menu" x="0" y="0" name="inst_8134526F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MakoInfo2" x="160" y="304" name="inst_95DED2D7" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="MakoInfo3" x="240" y="304" name="inst_8538698F" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
