@@ -1491,7 +1491,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>bucket</string>
+            <string>armor</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1907,7 +1907,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>fish_food</string>
+            <string>bucket</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -2323,7 +2323,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>flippers</string>
+            <string>fish_food</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -2739,7 +2739,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>armor</string>
+            <string>bucket</string>
           </argument>
           <argument>
             <kind>0</kind>
