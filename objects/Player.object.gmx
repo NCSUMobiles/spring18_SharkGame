@@ -31,6 +31,9 @@ shotTime = 500000
 if (Inventory.flippers) {
     moveSpeed = 5
 }
+if (Inventory.flippers_extra) {
+    moveSpeed = 7
+}
 
 shotTimer = 0
 </string>

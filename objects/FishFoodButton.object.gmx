@@ -69,13 +69,13 @@
         <exetype>1</exetype>
         <functionname>action_sprite_set</functionname>
         <codestring></codestring>
-        <whoName>UpgradeButtonFF</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>Button_Unpressed</sprite>
+            <sprite>-100</sprite>
           </argument>
           <argument>
             <kind>0</kind>
@@ -167,13 +167,13 @@
         <exetype>1</exetype>
         <functionname>action_sprite_set</functionname>
         <codestring></codestring>
-        <whoName>UpgradeButtonFF</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>Button_Pressed</sprite>
+            <sprite>-100</sprite>
           </argument>
           <argument>
             <kind>0</kind>

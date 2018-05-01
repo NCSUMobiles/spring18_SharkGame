@@ -49,7 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (Inventory.fish_food_obtained == false) {
+            <string>if (Inventory.bucket_obtained == false) {
     image_blend = c_gray
 } else {
     alarm[0] = 10
@@ -76,7 +76,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>Button_Unpressed</sprite>
+            <sprite>-100</sprite>
           </argument>
           <argument>
             <kind>0</kind>
@@ -104,7 +104,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Inventory.fish_food = false
+            <string>Inventory.bucket = false
 clickable = 1
 </string>
           </argument>
@@ -154,36 +154,17 @@ clickable = 1
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (clickable == 1 and Inventory.fish_food_obtained) {
+            <string>if (clickable == 1 and Inventory.bucket_obtained) {
     sprite_index = Button_Pressed
-    Inventory.fish_food = true
+    Inventory.bucket = true
     clickable = 0
+    if (Inventory.bucket_extra) {
+        alarm[2] = 125
+    } else {
+        alarm[2] = 250
+    }
 }
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>250</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>2</string>
           </argument>
         </arguments>
       </action>
