@@ -1907,7 +1907,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>bucket</string>
+            <string>bucket_obtained</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -2323,7 +2323,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>fish_food</string>
+            <string>fish_food_obtained</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -2739,7 +2739,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>bucket</string>
+            <string>bucket_obtained</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -3155,7 +3155,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>bucket</string>
+            <string>bucket_obtained</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -3571,7 +3571,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>bucket</string>
+            <string>bucket_obtained</string>
           </argument>
           <argument>
             <kind>0</kind>
