@@ -116,7 +116,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>'Hemipristis sharks are in this game!'</string>
+            <string>'Hemipristis has two distinct type of teeth in each section of its jaw. The #ones on the upper jaw act like knives, cutting through the flesh of the prey, #while the pointed ones on the bottom act like forks, spearing the prey #and holding it down.'</string>
           </argument>
         </arguments>
       </action>
