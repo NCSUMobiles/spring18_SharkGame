@@ -7,9 +7,9 @@
   <coltolerance>0</coltolerance>
   <sepmasks>-1</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>15</bbox_left>
-  <bbox_right>74</bbox_right>
-  <bbox_top>0</bbox_top>
+  <bbox_left>23</bbox_left>
+  <bbox_right>66</bbox_right>
+  <bbox_top>4</bbox_top>
   <bbox_bottom>95</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
@@ -26,22 +26,5 @@
     <frame index="3">images\Diver_3.png</frame>
     <frame index="4">images\Diver_4.png</frame>
     <frame index="5">images\Diver_5.png</frame>
-    <frame index="6">images\Diver_6.png</frame>
-    <frame index="7">images\Diver_7.png</frame>
-    <frame index="8">images\Diver_8.png</frame>
-    <frame index="9">images\Diver_9.png</frame>
-    <frame index="10">images\Diver_10.png</frame>
-    <frame index="11">images\Diver_11.png</frame>
-    <frame index="12">images\Diver_12.png</frame>
-    <frame index="13">images\Diver_13.png</frame>
-    <frame index="14">images\Diver_14.png</frame>
-    <frame index="15">images\Diver_15.png</frame>
-    <frame index="16">images\Diver_16.png</frame>
-    <frame index="17">images\Diver_17.png</frame>
-    <frame index="18">images\Diver_18.png</frame>
-    <frame index="19">images\Diver_19.png</frame>
-    <frame index="20">images\Diver_20.png</frame>
-    <frame index="21">images\Diver_21.png</frame>
-    <frame index="22">images\Diver_22.png</frame>
   </frames>
 </sprite>

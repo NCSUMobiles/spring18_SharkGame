@@ -128,10 +128,11 @@ if (currentFrame == 2) {
     if (surface_exists(sur_oldroom)) {
         draw_surface_ext(sur_oldroom, 0, 0, 1, 1, 0, c_white, 1-fadeAmount)
     }
-
+    /*
     if (surface_exists(sur_newroom)) {
         draw_surface_ext(sur_newroom, 0, 0, 1, 1, 0, c_white, fadeAmount)
     }
+    */
 }
 
 

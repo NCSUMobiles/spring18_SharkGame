@@ -35,6 +35,8 @@ if (Inventory.flippers_extra) {
     moveSpeed = 7
 }
 
+image_speed = .25
+
 shotTimer = 0
 </string>
           </argument>

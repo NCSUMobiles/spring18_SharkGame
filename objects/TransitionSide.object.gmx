@@ -92,11 +92,9 @@ if (currentframe &gt; maxframes) {
 }
 
 
-// We are now on the second room so record that room. 
-if (currentframe == 3) { 
-    sur_newroom = surface_create(room_width,room_height);
-    surface_copy(sur_newroom,0,0,application_surface)
-}
+// We are now on the second room so record that room.
+//if (currentframe == 2) { 
+//}
 if (currentframe == 1) {
     room_goto(destination)
 }
@@ -148,11 +146,15 @@ if (currentframe == 1) {
 
 
 /// I do this to hide the flicker where the next room pops up for 1 frame 
+
 if (currentframe == 2) { 
+    sur_newroom = surface_create(room_width,room_height)
+    surface_copy(sur_newroom,0,0,application_surface)
     if (surface_exists(sur_oldroom)) {
         draw_surface(sur_oldroom,0,0)
     }
 }
+
 </string>
           </argument>
         </arguments>
