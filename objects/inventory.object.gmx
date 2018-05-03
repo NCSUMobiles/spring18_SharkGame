@@ -1089,6 +1089,47 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// How much to level up
+level_boundary = 15
+
+hemi_current = hemipristis_teeth/level_boundary
+hemi_obtained = false
+
+hh_current = hammerhead_teeth/level_boundary
+hh_obtained = false
+
+gw_current = great_white_teeth/level_boundary
+gw_obtained = false
+
+m_current = mako_teeth/level_boundary
+m_obtained = false
+
+btr_current = black_tip_reef_teeth/level_boundary
+btr_obtained = false
+
+t_current = thresher_teeth/level_boundary
+t_obtained = false
+
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="7" enumb="5">
       <action>
@@ -1112,6 +1153,68 @@
           <argument>
             <kind>0</kind>
             <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// check to see if obtained
+// hemipristis
+hemi_obtained = false
+if (hemipristis_teeth &gt;= (hemi_current+1)*level_boundary) {
+    hemi_current = hemipristis_teeth/level_boundary
+    hemi_obtained = true
+}
+
+// hammerhead
+hh_obtained = false
+if (hammerhead_teeth &gt;= (hh_current+1)*level_boundary) {
+    hh_current = hammerhead_teeth/level_boundary
+    hh_obtained = true
+}
+
+// great white
+gw_obtained = false
+if (great_white_teeth &gt;= (gw_current+1)*level_boundary) {
+    gw_current = great_white_teeth/level_boundary
+    gw_obtained = true
+}
+
+// mako
+m_obtained = false
+if (mako_teeth &gt;= (m_current+1)*level_boundary) {
+    m_current = mako_teeth/level_boundary
+    m_obtained = true
+}
+
+// black tip reef
+btr_obtained = false
+if (black_tip_reef_teeth &gt;= (btr_current+1)*level_boundary) {
+    btr_current = black_tip_reef_teeth/level_boundary
+    btr_obtained = true
+}
+
+// thresher
+t_obtained = false
+if (thresher_teeth &gt;= (t_current+1)*level_boundary) {
+    t_current = thresher_teeth/level_boundary
+    t_obtained = true
+}
+</string>
           </argument>
         </arguments>
       </action>
@@ -1245,7 +1348,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>15</string>
+            <string>level_boundary</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1349,7 +1452,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>30</string>
+            <string>level_boundary*2</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1453,7 +1556,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>45</string>
+            <string>level_boundary*3</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1557,7 +1660,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>60</string>
+            <string>level_boundary*4</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1661,7 +1764,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>15</string>
+            <string>level_boundary</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1765,7 +1868,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>30</string>
+            <string>level_boundary*2</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1869,7 +1972,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>45</string>
+            <string>level_boundary*3</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1973,7 +2076,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>60</string>
+            <string>level_boundary*4</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2077,7 +2180,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>15</string>
+            <string>level_boundary</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2181,7 +2284,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>30</string>
+            <string>level_boundary*2</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2285,7 +2388,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>45</string>
+            <string>level_boundary*3</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2389,7 +2492,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>60</string>
+            <string>level_boundary*4</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2493,7 +2596,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>15</string>
+            <string>level_boundary</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2597,7 +2700,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>30</string>
+            <string>level_boundary*2</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2701,7 +2804,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>45</string>
+            <string>level_boundary*3</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2805,7 +2908,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>60</string>
+            <string>level_boundary*4</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2909,7 +3012,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>15</string>
+            <string>level_boundary</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -3013,7 +3116,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>30</string>
+            <string>level_boundary*2</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -3117,7 +3220,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>45</string>
+            <string>level_boundary*3</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -3221,7 +3324,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>60</string>
+            <string>level_boundary*4</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -3325,7 +3428,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>15</string>
+            <string>level_boundary</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -3429,7 +3532,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>30</string>
+            <string>level_boundary*2</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -3533,7 +3636,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>45</string>
+            <string>level_boundary*3</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -3637,7 +3740,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>60</string>
+            <string>level_boundary*4</string>
           </argument>
           <argument>
             <kind>4</kind>

@@ -137,6 +137,7 @@
     <object>objects\SaveData</object>
     <object>objects\TransitionSide</object>
     <object>objects\MuseumManager</object>
+    <object>objects\TextParticle</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\TitleScreen</room>
