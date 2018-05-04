@@ -49,7 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>acquired = Inventory.fish_food;
+            <string>acquired = Inventory.fish_food_obtained;
 </string>
           </argument>
         </arguments>

@@ -49,7 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>acquired = Inventory.bucket;
+            <string>acquired = Inventory.bucket_obtained;
 </string>
           </argument>
         </arguments>
