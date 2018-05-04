@@ -1278,7 +1278,7 @@ if (thresher_teeth &gt;= (t_current+1)*level_boundary) {
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>-100</object>
+            <object>Player</object>
           </argument>
           <argument>
             <kind>0</kind>
