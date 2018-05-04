@@ -1108,22 +1108,22 @@
             <string>// How much to level up
 level_boundary = 15
 
-hemi_current = hemipristis_teeth/level_boundary
+hemi_current = floor(hemipristis_teeth/level_boundary)
 hemi_obtained = false
 
-hh_current = hammerhead_teeth/level_boundary
+hh_current = floor(hammerhead_teeth/level_boundary)
 hh_obtained = false
 
-gw_current = great_white_teeth/level_boundary
+gw_current = floor(great_white_teeth/level_boundary)
 gw_obtained = false
 
-m_current = mako_teeth/level_boundary
+m_current = floor(mako_teeth/level_boundary)
 m_obtained = false
 
-btr_current = black_tip_reef_teeth/level_boundary
+btr_current = floor(black_tip_reef_teeth/level_boundary)
 btr_obtained = false
 
-t_current = thresher_teeth/level_boundary
+t_current = floor(thresher_teeth/level_boundary)
 t_obtained = false
 
 </string>
@@ -1176,42 +1176,42 @@ t_obtained = false
 // hemipristis
 hemi_obtained = false
 if (hemipristis_teeth &gt;= (hemi_current+1)*level_boundary) {
-    hemi_current = hemipristis_teeth/level_boundary
+    hemi_current = floor(hemipristis_teeth/level_boundary)
     hemi_obtained = true
 }
 
 // hammerhead
 hh_obtained = false
 if (hammerhead_teeth &gt;= (hh_current+1)*level_boundary) {
-    hh_current = hammerhead_teeth/level_boundary
+    hh_current = floor(hammerhead_teeth/level_boundary)
     hh_obtained = true
 }
 
 // great white
 gw_obtained = false
 if (great_white_teeth &gt;= (gw_current+1)*level_boundary) {
-    gw_current = great_white_teeth/level_boundary
+    gw_current = floor(great_white_teeth/level_boundary)
     gw_obtained = true
 }
 
 // mako
 m_obtained = false
 if (mako_teeth &gt;= (m_current+1)*level_boundary) {
-    m_current = mako_teeth/level_boundary
+    m_current = floor(mako_teeth/level_boundary)
     m_obtained = true
 }
 
 // black tip reef
 btr_obtained = false
 if (black_tip_reef_teeth &gt;= (btr_current+1)*level_boundary) {
-    btr_current = black_tip_reef_teeth/level_boundary
+    btr_current = floor(black_tip_reef_teeth/level_boundary)
     btr_obtained = true
 }
 
 // thresher
 t_obtained = false
 if (thresher_teeth &gt;= (t_current+1)*level_boundary) {
-    t_current = thresher_teeth/level_boundary
+    t_current = floor(thresher_teeth/level_boundary)
     t_obtained = true
 }
 </string>
@@ -1278,7 +1278,7 @@ if (thresher_teeth &gt;= (t_current+1)*level_boundary) {
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>-100</object>
+            <object>Player</object>
           </argument>
           <argument>
             <kind>0</kind>
